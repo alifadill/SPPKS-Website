@@ -1,0 +1,125 @@
+:root{
+    --pri-color:#5dadec;
+    --bg-color: #fff; 
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+/* NAVBAR */
+.row .col-lg-12{
+    font-weight: 700;
+    font-size:larger;
+
+}
+
+.row .col-11{
+    font-weight: 400;
+    font-size: small;
+    
+}
+
+.row .col-lg-10{
+    font-weight: 300;
+    font-size: small;
+
+}
+
+.navbar{
+    background-color:var(--pri-color) !important;
+}
+
+.navbar-brand{
+    margin:0; 
+    padding:0;
+}
+
+.navbar-brand>img{
+    width: 100px;
+}
+
+.nav-item > .active {
+    font-weight: 700;
+}
+
+.nav-item{
+    font-weight: 300;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #212529;
+}
+
+.nav-link:hover{
+    color:var(--bg-color);
+}
+
+
+/* Hero Section */
+#img-hero{
+    margin-left: 100px;
+}
+
+.text-panjang{
+    width:80%;
+}
+
+button:hover.btn-lg.btn-warning{
+    background-color:#dc3545 !important;
+}
+
+button:hover{
+    /* background-color:#dc3545; */
+    color:var(--bg-color) !important;
+
+}
+
+/* artikel section */
+
+section#artikel div.col{
+    /* height: 300px;
+    width: 300px;
+    background-color: #5dadec;
+    border: 1px black solid ;
+    margin: 10px; */
+    margin:auto;
+}
+
+/* Footer */
+section#footer{
+    height: 300px;
+    width: 100%;
+    background-color: #5dadec;
+    border: 1px black solid ;
+    margin: 10px;
+    
+}
+
+
+
+
+/* Statistik */
+#statistik{
+    margin-top: 150px;
+}
+
+
+@media screen and (max-width: 992px) {
+    div.col-11{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    div.col-lg-10{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .navbar-brand>img{
+        width: 55.33px;
+    }    
+}
+
+
